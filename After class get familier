@@ -1,0 +1,9 @@
+<!DOCTYPE-html>
+<html>
+   <head>
+    <title> My fist html page</title>
+   </head>
+   <body>
+        <h1> My first html page. What is it</h1>
+        <p> This is my first html page. <b>I am learning how to write html code.</b><em> I am very excited.</em><h2>I can make links</h2></p><a href="https://www.codingal.com/en-us/student/dashboard/">Codingal</a> <p> And i like it.</p>   </body>
+</html>
