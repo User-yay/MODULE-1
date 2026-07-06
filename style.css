@@ -14,11 +14,17 @@
      background-color: pink;
 
      font-family: Arial, Helvetica, sans-serif;
+
+     text-align: center;
  }
 
  .Main-section-content h2 {
      background-color: #06b800;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
  }
 
  #bestsellers,
@@ -45,6 +51,7 @@
  h1 {
      color: #fefefe;
      font-family: Arial, Helvetica, sans-serif;
+     margin: 30px;
      
  }
 
@@ -74,7 +81,10 @@
 
  .teachers-info {
      border: 1px solid #333333;
-     border-radius: 10px;
+     border-radius: 5px;
+     margin: 10px;
+     width: 400px;
+     box-shadow: 6px 0px 21px -3px #888888;
  }
 
  button {
@@ -82,6 +92,9 @@
      color: #ffffff;
      font-size: 20px;
      font-weight: bold;
+     padding: 5px;
+        border-radius: 5px;
+        border: none;
  }
 
  ul {
@@ -108,4 +121,40 @@
     font-family: Pacifico, Helvetica, sans-serif;
     text-decoration: underline;
  }
+ nav li {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+ }
 
+ .teacher-info div:last-child {
+    margin-left: 50px;
+
+ }
+
+ .Main-section-content {
+ padding: 20px;
+
+ }
+ 
+ table {
+    Margin: auto;
+ }
+
+ th,
+ td {
+    padding: 10px;
+ }
+
+ footer {
+    padding: 20px;
+ }
+
+ #bestsellers h2 {
+    padding: 20px;
+ }
+
+ ol li {
+   margin-bottom: 20px;
+ }
