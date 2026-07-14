@@ -197,3 +197,38 @@
         display: flex;
         justify-content: space-between;
     }
+
+    header {
+        grid-area: header;
+        
+    }
+
+    nav {
+        grid-area: nav;
+    }
+
+    #intro {
+        grid-area: intro;
+    }
+
+    #Main-content {
+        grid-area: main-section;
+    }
+
+    #bestsellers {
+        grid-area: bestsellers;
+    }
+
+     footer {
+        grid-area: footer;
+     }
+
+     .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-areas:
+     "header header header header intro"
+        "nav nav nav nav intro"
+        "main-content main-content main-content main-content bestsellers"
+        "footer footer footer footer footer";
+     }
