@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Study Progress</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        body { background-color: #f4f7ff; font-family: Arial, sans-serif; }
+        .jumbotron { background-color: #e0e7ff; border-left: 6px solid #4a90e2; }
+        .jumbotron h1 { color: #4a90e2; }
+        .section-title { font-weight: bold; margin-top: 30px; margin-bottom: 30px} 
+        p { font-weight: bold; margin-bottom: 5px; }
+        </style>
+</head>
+<body>
+
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>My Study Progress</h1>
+            <p class="lead"> track your subjects, complete assignments,monitor your performance and your learning progress in one place</p>
+
+            <button class="btn btn-primary">math</button>
+            <button class="btn btn-success">science</button>
+            <button class="btn btn-warning">english</button>
+            <button class="btn btn-danger">coding</button>
+        </div>
+    </div>
+
+
+    <div class="container">
+
+   
+        <h2 class="section-title">lessons done<span class="badge badge-primary">24</span></h2>
+        
+        <p class="section-title">math<span class="badge badge-primary">15</span></p>
+        <p class="section-title">science<span class="badge badge-primary">2</span></p>
+        <p class="section-title">english<span class="badge badge-primary">3</span></p>
+        <p class="section-title">coding<span class="badge badge-primary">4</span></p>
+
+
+        <h2 class="section-title">Subject progress</h2>
+
+        <p> math</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+        </div>
+        <p> science</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+        </div>
+        <p> english</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+        </div>
+        <p> coding</p>
+        <div class="progress mb-3">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+        </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></script>
+</body>
+</html>
