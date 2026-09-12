@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+    <body>
+        <script>
+            function addNumbers() {
+                let num1 = parseFloat(prompt("Enter the first number:"));
+                let num2 = parseFloat(prompt("Enter the second number:"));
+                let sum = num1 + num2;
+                document.write("The sum of " + num1 + " and " + num2 + " is: " + sum);
+            }
+            addNumbers(); 
+            function subtractNumbers() {
+                    let num1 = parseFloat(prompt("Enter the first number:"));
+                    let num2 = parseFloat(prompt("Enter the second number:"));
+                    let difference = num1 - num2;
+                    document.write("The difference of " + num1 + " and " + num2 + " is: " + difference);
+                }
+                subtractNumbers();
+                function multiplyNumbers() {
+                        let num1 = parseFloat(prompt("Enter the first number:"));
+                        let num2 = parseFloat(prompt("Enter the second number:"));
+                        let product = num1 * num2;
+                        document.write("The product of " + num1 + " and " + num2 + " is: " + product);
+                    }
+                        
+                        multiplyNumbers(); 
+                        function divideNumbers() {
+                let num1 = parseFloat(prompt("Enter the first number:"));
+                let num2 = parseFloat(prompt("Enter the second number:"));
+                let quotient = num1 / num2;
+                document.write("The quotient of " + num1 + " and " + num2 + " is: " + quotient);
+            }
+            divideNumbers();
+        </script>
+    </body>
+</html>
+
+by the way, the first set of numbers is +, the second set of numbers is -, the third set of numbers is *, and the fourth set of numbers is /
