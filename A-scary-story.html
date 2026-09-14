@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Scary Story</title>
+        <style>
+            body.dark {
+                background-color: black;
+                color: white;
+            }
+
+            button {
+                display: block;
+                margin: 5px;
+            }
+
+            .textEntry {
+                margin-top: 12px;
+                margin-bottom: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The basement.....</h1>
+        <p id="story">I wanted to find my friend, and I knew they were down there somewhere.</p>
+        <button onclick="goDark()">get in the mood</button>
+        <div class="textEntry">Type your text here... if you dare <input type="text" id="name"></div>
+        <button onclick="typeAndScream()">Please don't (sob) press meeeeeeeeeee</button>
+        <button onclick="finishTheStory()">Tell me what happened</button>
+
+        <script>
+            function goDark() {
+                document.body.className ="dark";
+            }
+
+            function typeAndScream() {
+                var name = document.getElementById("name").value;
+                alert("urk! Why " + name + ". How could you do (cough) this to me?!");
+            }
+
+            function finishTheStory() {
+                document.getElementById("story").innerHTML += " you feel the hand of the person. it is your friend. all you did was panic. He will never breathe again. you are now alone in the basement. you hear a voice whispering your name. you turn around and see a shadowy figure. his eyes are black and his smile is twisted. he lunges at you and everything goes black.";
+            }
+        </script>
+    </body>
+</html>
