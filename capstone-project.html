@@ -38,6 +38,25 @@
             <a href="#">Gallery</a>
             <a href="#">Contact_us</a>
         </div>
-        
+        <section>
+            <img class="mySlides" src="goofy ah cat in war thunder.gif" alt="" width="100%" height="500px">
+            <img class="mySlides" src="hi bru.gif" alt="" width="100%" height="500px">
+            <img class="mySlides" src="ah.gif" alt="" width="100%" height="500px">
+        </section>
+        <script>
+            var myIndex = 0;
+            carousel();
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(carousel, 3000);
+            }
+        </script>
     </body>
 </html>
